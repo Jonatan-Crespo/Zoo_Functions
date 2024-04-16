@@ -12,7 +12,7 @@ const getSpeciesByIds = (species, ...ids) => {
     .filter((id = []) => ids.includes(id.id))
     .map(({ name, id }) => ({ name, id }))
 };
-
-console.log(getSpeciesByIds(species, '533bebf3-6bbe-41d8-9cdf-46f7d13b62ae'));
+// getSpeciesByIds(species,'');
+console.log(getSpeciesByIds(species, '533bebf3-6bbe-41d8-9cdf-46f7d13b62ae','bb2a76d8-5fe3-4d03-84b7-dba9cfc048b5'));
 
 module.exports = getSpeciesByIds;
